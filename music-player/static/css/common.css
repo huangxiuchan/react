@@ -1,0 +1,233 @@
+@charset "UTF-8";
+html{
+    background-color: #000000
+}
+html,body{
+    padding:0;
+    margin:0;
+    font-family: PingFang SC,STHeitiSC-Light,Helvetica-Light,arial,sans-serif;
+}
+.container {
+}
+.styleguide,.styleguide *
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.clearfix:after,.clearfix:before
+{
+    content: " ";
+    display: table;
+    clear: both;
+    overflow: hidden;
+}
+.clearfix:after
+{
+    clear: both;
+}
+.rt {
+    position: relative;
+}
+.ab {
+    position: absolute;
+}
+.tar {
+    text-align: right;
+}
+.tal {
+    text-align: left;
+}
+.ft12 {
+    font-size: 12px;
+}
+.bold {
+    font-weight: bold;
+}
+.-vcenter:before
+{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    margin-right: -4px;
+    vertical-align: middle;
+}
+.text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.-hcenter
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.none {
+    display: none;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.row
+{
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    align-items: center;
+    -webkit-box-align: center;
+    width: 100%;
+}
+.-align-top.btn-group,.-align-top.flex-row,.row.-align-top
+{
+    align-items: flex-start;
+    -webkit-box-align: start;
+}
+.row>*
+{
+    display: block!important;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+.row>.-col-auto
+{
+    display: block!important;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+}
+.-col1
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 8.33333%!important;
+}
+.-col2
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 16.66667%!important;
+}
+.-col3
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 25%!important;
+}
+.-col4
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 33.33333%!important;
+}
+.-col5
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 41.66667%!important;
+}
+.-col6
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 50%!important;
+}
+.-col7
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 58.33333%!important;
+}
+.-col8
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 66.66667%!important;
+}
+.-col9
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 75%!important;
+}
+.-col10
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 83.33333%!important;
+}
+.-col11
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 91.66667%!important;
+}
+.-col12
+{
+    -webkit-box-flex: 0!important;
+    flex: none!important;
+    width: 100%!important;
+}
+
+.fl{ float: left;}
+.fr{ float: right;}
+
+.m_icon,.mode{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.m_icon.back{
+    background-image: url("../../static/images/back-2.png");
+}
+
+.m_icon.play{
+    background-image: url("../../static/images/pause-2.png");
+}
+
+.m_icon.pause{
+    background-image: url("../../static/images/play-2.png");
+}
+
+.m_icon.next{
+    background-image: url("../../static/images/prev-2.png");
+}
+.m_icon.menu{
+    background-image: url("../../static/images/choice.png");
+}
+
+.mode.singleCycle{
+    background-image: url("../../static/images/singleCycle-2.png");
+}
+
+.mode.random{
+    background-image: url("../../static/images/random-2.png");
+}
+
+.mode.cycle{
+    background-image: url("../../static/images/cycle-2.png");
+}
+
+.mode.random{
+    background-image: url("../../static/images/random-2.png");
+}
+
+.mode.cycle{
+    background-image: url("../../static/images/cycle-2.png");
+}
+
+.LoadMore{
+    text-align: center;
+    padding: 2px 0;
+    height: 22px;
+    line-height: 22px;
+}
+.LoadMore span{
+    color:rgb(184, 179, 179);
+    font-size: 12px;
+}
+.LoadMore.hide{
+    display: none;
+}
