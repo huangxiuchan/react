@@ -1,0 +1,63 @@
+.list-component-cont{
+  top:48px;
+  position: absolute;
+  bottom: 0px;
+  width:100%;
+
+  -webkit-transition: bottom 2s ease;
+  -moz-transition: bottom 2s ease;
+  -o-transition: bottom 2s ease;
+  -ms-transition: bottom 2s ease;
+  transition: bottom 2s ease;
+
+  &.hasPlayBar{
+    bottom:60px;
+  }
+}
+.list-component{
+  h2{
+    font-size: 14px;
+    text-align: center;
+    color:#00c51a;
+    margin-top:20px;
+  }
+  ul{
+    margin: 20px 30px 0px 30px;
+    padding: 0;
+    .list-item{
+      display:block;
+      padding: 10px 0;
+      border-top: 1px solid rgba(70, 67, 67, 0.5);
+      .cover{
+        flex: 0 0 60px;
+        margin-right: 20px;
+        img{
+          width: 60px;
+          height:60px;
+          border-radius: 50%;
+        }
+      }
+      .cont{
+        .title{
+          font-size: 14px;
+          color:#fff;
+        }
+        .artist{
+          font-size: 13px;
+          color: #999;
+          margin-top:3px;
+        }
+      }
+    }
+    .ft-color-green{
+      .cont{
+        .title{
+          color:#00c51a;
+        }
+      }
+      
+      
+    }
+  }
+  
+}
